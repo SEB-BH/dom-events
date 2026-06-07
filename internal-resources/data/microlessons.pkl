@@ -1,0 +1,67 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+fundamentals = new Template.Microlesson {
+  friendlyName = "Fundamentals"
+  dirName = "fundamentals"
+  type = "Content"
+  videoUrl = ""
+}
+
+respondingToEvents = new Template.Microlesson {
+  friendlyName = "Responding to Events"
+  dirName = "responding-to-events"
+  type = "Content"
+  videoUrl = ""
+}
+
+namedCallbacks = new Template.Microlesson {
+  friendlyName = "Named Callbacks"
+  dirName = "named-callbacks"
+  type = "Content"
+  videoUrl = ""
+}
+
+theEventObject = new Template.Microlesson {
+  friendlyName = "The  event  Object"
+  dirName = "the-event-object"
+  type = "Content"
+  videoUrl = ""
+}
+
+eventBubbling = new Template.Microlesson {
+  friendlyName = "Event Bubbling"
+  dirName = "event-bubbling"
+  type = "Content"
+  videoUrl = ""
+}
+
+removingEventListeners = new Template.Microlesson {
+  friendlyName = "Removing Event Listeners"
+  dirName = "removing-event-listeners"
+  type = "Content"
+  videoUrl = ""
+}
+
+alternateEventListenerTechniques = new Template.Microlesson {
+  friendlyName = "Alternate Event Listener Techniques"
+  dirName = "alternate-event-listener-techniques"
+  type = "Content"
+  videoUrl = ""
+}
+

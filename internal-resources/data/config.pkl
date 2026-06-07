@@ -1,0 +1,58 @@
+amends "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl"
+
+import "microlessons.pkl" as mls
+
+// See:
+// https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/static/v2/pkl/template.pkl
+// for the full configuration options available here.
+
+// After modifying this file, use this command while in the root directory
+// for this project to create the final configuration file (config.json):
+// pkl eval -f json ./internal-resources/data/config.pkl -o %{moduleDir}/%{moduleName}.%{outputFormat}
+
+repo {
+  // This name is shown in the header nav to navigate users home
+  friendlyName = "DOM Events"
+  // This must match the repo name as it appears on GitHub exactly
+  name = "dom-events"
+  type = "Lesson"
+}
+
+courses {
+  new {
+    name = "fallback"
+    microlessons {
+      // add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.concepts
+      mls.fundamentals
+      mls.respondingToEvents
+      mls.namedCallbacks
+      mls.theEventObject
+      mls.eventBubbling
+      mls.removingEventListeners
+      mls.alternateEventListenerTechniques
+    }
+  }
+  new {
+    name = "seb"
+    microlessons {
+      mls.setup
+      mls.concepts
+      mls.fundamentals
+      mls.respondingToEvents
+      mls.namedCallbacks
+      mls.theEventObject
+      (mls.eventBubbling) {
+        type = "Level Up content"
+      }
+      (mls.removingEventListeners) {
+        type = "Level Up content"
+      }
+      (mls.alternateEventListenerTechniques) {
+        type = "Level Up content"
+      }
+    }
+  }
+}
+

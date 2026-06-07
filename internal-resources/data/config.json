@@ -1,0 +1,175 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "DOM Events",
+    "name": "dom-events",
+    "type": "Lesson"
+  },
+  "courses": [
+    {
+      "name": "fallback",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Fundamentals",
+          "dirName": "fundamentals",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Responding to Events",
+          "dirName": "responding-to-events",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Named Callbacks",
+          "dirName": "named-callbacks",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "The  event  Object",
+          "dirName": "the-event-object",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Event Bubbling",
+          "dirName": "event-bubbling",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Removing Event Listeners",
+          "dirName": "removing-event-listeners",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Alternate Event Listener Techniques",
+          "dirName": "alternate-event-listener-techniques",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "seb",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Fundamentals",
+          "dirName": "fundamentals",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Responding to Events",
+          "dirName": "responding-to-events",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Named Callbacks",
+          "dirName": "named-callbacks",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "The  event  Object",
+          "dirName": "the-event-object",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Event Bubbling",
+          "dirName": "event-bubbling",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Removing Event Listeners",
+          "dirName": "removing-event-listeners",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Alternate Event Listener Techniques",
+          "dirName": "alternate-event-listener-techniques",
+          "type": "Level Up content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}
