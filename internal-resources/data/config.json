@@ -52,19 +52,19 @@
         {
           "friendlyName": "Event Bubbling",
           "dirName": "event-bubbling",
-          "type": "Content",
+          "type": "Level Up content",
           "videoUrl": ""
         },
         {
           "friendlyName": "Removing Event Listeners",
           "dirName": "removing-event-listeners",
-          "type": "Content",
+          "type": "Level Up content",
           "videoUrl": ""
         },
         {
           "friendlyName": "Alternate Event Listener Techniques",
           "dirName": "alternate-event-listener-techniques",
-          "type": "Content",
+          "type": "Level Up content",
           "videoUrl": ""
         }
       ],
