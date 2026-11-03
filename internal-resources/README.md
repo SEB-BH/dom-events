@@ -3,8 +3,6 @@
   <span class="subhead">Instructor Guide</span>
 </h1>
 
-# DOM Events — Codealong Cheat Sheet
-
 Follow the lesson order. **Add** means new code; **Replace** means overwrite the earlier version, rather than adding another listener or function. Code blocks are copied unchanged from the attached lesson.
 
 Keep element selections and count variables above the handlers that use them. Keep named handlers above listeners that use them. **🎓 You Do** marks a student pause; the lesson supplies tasks, but no solution snippets.
@@ -14,6 +12,8 @@ Keep element selections and count variables above the handlers that use them. Ke
 **Level Up:** [Event Bubbling](#7-event-bubbling-level-up) · [Removing Event Listeners](#8-removing-event-listeners-level-up) · [Alternate Event Listener Techniques](#9-alternate-event-listener-techniques-level-up)
 
 ## 1. Setup
+
+_“Now we’re going to set up the HTML, CSS, and JavaScript for a small blog page.”_
 
 **Terminal:** Open the terminal and go to the lectures folder.
 
@@ -94,9 +94,13 @@ button {
 
 ## 2. Concepts
 
+_“Let's learn what events are and how user actions can trigger our code.”_
+
 No code changes. Briefly look at the [MDN event reference](https://developer.mozilla.org/en-US/docs/Web/Events).
 
 ## 3. Fundamentals
+
+_“Now we’re going to make a button listen for a click and run some code when it happens.”_
 
 **File:** `js/app.js`
 
@@ -122,6 +126,8 @@ likeButtonElement.addEventListener('click', () => {
 **Check:** Open DevTools and click the like button. The console should show `You clicked me!`.
 
 ## 4. Responding to Events
+
+_“Now we’re going to collect text from an input, create a comment, and add it to the page.”_
 
 **`index.html` — Add below the existing `<div>` in `<body>`:** Comment list, input, and button.
 
@@ -225,6 +231,8 @@ Students should use properties already covered in the lesson.
 
 ## 5. Named Callbacks
 
+_“Now we’re going to move our callback into a named function, then use it to count and display likes.”_
+
 **File:** `js/app.js`
 
 **Add above the event listeners:** Give the like-button callback a name.
@@ -274,6 +282,8 @@ const handleLike = () => {
 ```
 
 ## 6. The event Object
+
+_“Now we’re going to find out which button the user clicked, so one function can handle both likes and dislikes.”_
 
 **File:** `js/app.js`
 
@@ -358,7 +368,9 @@ const handleReaction = (event) => {
 
 **Check:** Click both buttons. Each updates only its own count and text.
 
-## 7. Event Bubbling (Level Up)
+## 7. Event Bubbling (Level Up) 🚀
+
+_“Now we’re going to see how clicks travel through parent elements, then use one parent listener to handle both buttons.”_
 
 **File:** `js/app.js`. Keep the existing HTML; the lesson’s HTML block here only repeats the button structure.
 
@@ -410,7 +422,9 @@ divElement.addEventListener('click', handleReaction)
 - Click the shaded `<div>` itself, rather than a button.
 - Observe what changes, work out why, and fix the bug.
 
-## 8. Removing Event Listeners (Level Up)
+## 8. Removing Event Listeners (Level Up) 🚀
+
+_“Now we’re going to remove each button’s listener after its first click, so users can only react once per button.”_
 
 **File:** `js/app.js`.
 
@@ -451,7 +465,9 @@ const handleReaction = (event) => {
 
 **Check:** Click each button twice. Each count increases only on its first click.
 
-## 9. Alternate Event Listener Techniques (Level Up)
+## 9. Alternate Event Listener Techniques (Level Up) 🚀
+
+_“Now we’re going to look at two other ways to connect events to functions, so we can recognise them in other people’s code.”_
 
 **Examples only:** The lesson does not supply a `submit` function or a `btnElement` selection for these snippets.
 
