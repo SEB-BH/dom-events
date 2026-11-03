@@ -19,6 +19,12 @@ Events are the backbone of interactive web applications, allowing users to engag
 | [Responding to Events](./responding-to-events/README.md)                               | Create in-memory elements and add them to the DOM.                                      |
 | [Named Callbacks](./named-callbacks/README.md)                                         | Use named callback functions to make event handlers.                                    |
 | [The `event` Object](./the-event-object/README.md)                                     | Use the `event` object to allow multiple elements to share one named callback function. |
+
+
+## Level Up content
+
+| Lesson                                                                                 | Skills                                                    |
+| -------------------------------------------------------------------------------------- |  -------------------------------------------------------- |
 | [Event Bubbling](./event-bubbling/README.md)                                           | Event bubbling and event delegation.                                                    |
 | [Removing Event Listeners](./removing-event-listeners/README.md)                       | Removing a set event listener.                                                          |
 | [Alternate Event Listener Techniques](./alternate-event-listener-techniques/README.md) | `.onclick()` and inline listeners.                                                      |
